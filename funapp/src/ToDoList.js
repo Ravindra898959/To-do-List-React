@@ -1,14 +1,19 @@
-import React, { useState, useEffect } from "react";
-// import {BsXLg} from "./react-icons/bs";
+import React from "react";
+// import PendingTask from "./PendingTask";
 
 const ToDoList = (props) => {
-  console.log(props, "props");
-
-  //   const { handleComplete } = props;
+  const { markAsPending } = props;
 
   return (
     <>
       <div className="todo_style">
+        <button
+          onClick={() => {
+            markAsPending(props.id);
+          }}
+        >
+          Pending
+        </button>
         <i
           className="fa-solid fa-xmark BsXLg "
           onClick={() => {
@@ -16,8 +21,6 @@ const ToDoList = (props) => {
           }}
         ></i>
         <li> {props.text} </li>
-
-        {/* <button className="pending" onClick={handleComplete(props.text)}>Mark as Completed</button> */}
       </div>
     </>
   );

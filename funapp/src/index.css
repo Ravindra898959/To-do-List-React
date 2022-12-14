@@ -1,22 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=DynaPuff&family=Ms+Madi&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=DynaPuff&family=Ms+Madi&display=swap");
 
-body{
-  font-family: 'DynaPuff', cursive;
+body {
+  font-family: "DynaPuff", cursive;
   box-sizing: border-box;
   margin: 0;
   padding: 0%;
   /* background-color: rgb(236, 245, 192); */
 }
 
-
-
-
-
-
-
-
-.main_div{
-  width: 100%;
+.main_div {
+  width: auto;
   height: 100vh;
   background-color: antiquewhite;
   display: flex;
@@ -25,22 +18,22 @@ body{
   align-items: center;
   text-align: center;
 }
-.center_div{
-  width: 25%;
+.center_div {
+  width: auto;
   height: 80vh;
   background-color: rgb(118, 242, 149);
-  box-shadow: 5px 5px 25px -5px rgba(0,0,0,0.5);
+  box-shadow: 5px 5px 25px -5px rgba(0, 0, 0, 0.5);
   border-radius: 15px;
 }
-h1{
-   color: white;  
-   background: transparent;
-   background-color: rgb(43, 219, 125);
-   padding: 6px 0px 2px 0px;
-   margin-bottom: 10px;
-   box-shadow: 5px 5px 15px -5px rgba(0,0,0,0.3);
+h1 {
+  color: white;
+  background: transparent;
+  background-color: rgb(43, 219, 125);
+  padding: 6px 0px 2px 0px;
+  margin-bottom: 10px;
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
 }
-input{
+input {
   text-align: center;
   height: 30px;
   top: 10px;
@@ -52,7 +45,7 @@ input{
   border-bottom: 2px solid #8566aa;
   outline: none;
 }
-.button{
+.button {
   height: 45px;
   width: 45px;
   border-radius: 50%;
@@ -63,16 +56,15 @@ input{
   border: none;
   outline: none;
   margin-left: 10px;
-  box-shadow: 5px 5px 15px -5px  rgba(0,0,0,0.3);
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
 }
-.button:hover{
+.button:hover {
   background-color: rgb(43, 219, 125);
 }
-ol{
+ol {
   margin-top: 30xp;
-
 }
-ol li{
+ol li {
   padding-left: 0px;
   text-align: left;
   font-size: 20px;
@@ -85,11 +77,11 @@ ol li{
 }
 
 .todo_style {
-    margin: 20px;
-    display: flex;
-    flex-direction: row;
-    justify-content: left;
-    align-items: center; 
+  margin: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
 }
 
 .todo_style .BsXLg {
@@ -104,7 +96,7 @@ ol li{
   border-radius: 50%;
   margin: 0 15px 0 0.1px;
   color: aliceblue;
-  box-shadow: 5px 5px 15px -5px rgba(0,0,0,0.3); 
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
 }
 
 .todo_style .BsXLg:hover {
@@ -113,4 +105,19 @@ ol li{
 
 .todo_style .BsXLg:hover .list_style {
   color: crimson;
-} 
+}
+.all-div {
+  border: 2px solid red;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pending-div {
+  display: flex;
+}
+
+.pendingdiv-main {
+  height: auto;
+  border: 5px solid red;
+}
